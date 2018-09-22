@@ -1,3 +1,6 @@
+/*  Red border added to every element.
+**  For development purposes only.
+*/
 * {
 	border: 1px solid red !important;
 }
@@ -10,13 +13,22 @@
 
 }
 
+@media only screen and (max-width : 900px) {
+	
+	p{
+		background-color: aquamarine;
+	}
+	
+}
+
 
 h1 {
 	color: darkgreen;
 }
 
 .row {
-	content: flex;
+	display: flex;
+	flex-wrap: wrap
 	width: 100%;
 }
 
