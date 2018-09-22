@@ -1,3 +1,14 @@
+* {
+	box-sizing: border-box
+}
+
+.app{
+	display: flex
+}
+
 .description {
-    color:red
+	color: red;
+	width: auto;
+	font-style: italic;
+	font-weight: bold
 }
