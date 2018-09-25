@@ -2,7 +2,11 @@
 **  For development purposes only.
 */
 * {
-  border: 1px solid red !important;
+  /*border: 1px solid red !important;*/
+}
+
+* {
+	font-family: 'Lato', sans-serif;
 }
 
 * {
